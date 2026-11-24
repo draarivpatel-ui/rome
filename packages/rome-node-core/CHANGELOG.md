@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.1.9](https://github.com/rome-os/rome/compare/node-core-v0.1.8...node-core-v0.1.9) (2026-11-24)
+
+
+### Features
+
+* **node:** add Audit log view to Rome Node Web UI ([#2542](https://github.com/rome-os/rome/issues/2542)) ([2511b5d](https://github.com/rome-os/rome/commit/2511b5d2579a7e5f8ab9c43edc6c0feb309600bb))
+* **node:** deploy Rome Node with Docker from device settings ([#2396](https://github.com/rome-os/rome/issues/2396)) ([c3c24c9](https://github.com/rome-os/rome/commit/c3c24c9c20245687f0e726e0fbf15a1b31aca2b8))
+* **rome-node:** add computer-use host for node daemon ([#2565](https://github.com/rome-os/rome/issues/2565)) ([f4fa3ea](https://github.com/rome-os/rome/commit/f4fa3eaa734e9fc959ac68c36a8927cfccb11431))
+* **rome-node:** add computer-use protocol bridge ([#2564](https://github.com/rome-os/rome/issues/2564)) ([8f93d6c](https://github.com/rome-os/rome/commit/8f93d6c1cf82ebf481d56782771df56d8b68992b))
+* **rome-node:** add macOS native computer-use helper ([#2563](https://github.com/rome-os/rome/issues/2563)) ([ee6ceca](https://github.com/rome-os/rome/commit/ee6cecab4d646392835ced73219cf1abdf8a20a2))
+* **rome-node:** bundle macOS computer-use in node builds ([#2566](https://github.com/rome-os/rome/issues/2566)) ([16ecc98](https://github.com/rome-os/rome/commit/16ecc98dd3f5f2dc879da309f4a9b7bc1ffd4e54))
+
+
+### Bug Fixes
+
+* **computer-use:** harden approvals, revocation, queueing, web UI, and macOS helper ([#2654](https://github.com/rome-os/rome/issues/2654)) ([ddf7451](https://github.com/rome-os/rome/commit/ddf7451a83f044bfceed71f2d33d690d16936818))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * optionalDependencies
+    * @rome-os/node-core-darwin-arm64 bumped to 0.1.9
+
 ## [0.1.8](https://github.com/rome-os/rome/compare/node-core-v0.1.7...node-core-v0.1.8) (2026-11-11)
 
 

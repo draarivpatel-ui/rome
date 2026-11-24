@@ -1,5 +1,22 @@
 # @rome-os/app-runtime
 
+## [0.12.0](https://github.com/rome-os/rome/compare/app-runtime-v0.11.6...app-runtime-v0.12.0) (2026-11-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **slack-app:** make the Slack app Rome's only Slack connection ([#2451](https://github.com/rome-os/rome/issues/2451))
+
+### Features
+
+* **agent:** open a session in a connection's chat with its latest messages ([#2445](https://github.com/rome-os/rome/issues/2445)) ([5798d32](https://github.com/rome-os/rome/commit/5798d329bb75b54369ed467b1d5bb9a7fb601868))
+* **app-runtime:** let an app list the chats and threads a connected account sees ([#2409](https://github.com/rome-os/rome/issues/2409)) ([7d709ee](https://github.com/rome-os/rome/commit/7d709ee7ac4f2c9e4ad453a4e2618e8196243a54))
+* **app-runtime:** read a Discord chat's history from Discord itself ([#2407](https://github.com/rome-os/rome/issues/2407)) ([390f6f9](https://github.com/rome-os/rome/commit/390f6f96e393cdc84a0fdfecea474f01460d6829))
+* **connections:** add Rome's official Discord bot, and let a connection chat start tasks ([#2545](https://github.com/rome-os/rome/issues/2545)) ([40ffd99](https://github.com/rome-os/rome/commit/40ffd998b3ac8ae1b4cb9dbf8cab8ed20524dbd7))
+* **connections:** add Rome's own Slack app connection ([#2507](https://github.com/rome-os/rome/issues/2507)) ([93954ec](https://github.com/rome-os/rome/commit/93954ecd641e54c89aae58fc9dc74d0148b3cbab))
+* **participation:** record every Discord and Feishu message, and decide the reply, bot and mention rules in the wake gate ([#2481](https://github.com/rome-os/rome/issues/2481)) ([2be0695](https://github.com/rome-os/rome/commit/2be0695231cd667c1c9fc908cbf77e5b8beaf0fa))
+* **slack-app:** make the Slack app Rome's only Slack connection ([#2451](https://github.com/rome-os/rome/issues/2451)) ([015f9ea](https://github.com/rome-os/rome/commit/015f9ea8d87f11fc473b834c1951c32899d16ab9))
+
 ## [0.11.6](https://github.com/rome-os/rome/compare/app-runtime-v0.11.5...app-runtime-v0.11.6) (2026-11-19)
 
 
